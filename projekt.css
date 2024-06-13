@@ -1,0 +1,186 @@
+header{
+    font-family: 'Brush Script MT';
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.boja{
+    margin: 0;
+    background-color: mistyrose;
+    height: 100%;
+    flex:1;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:100%;
+    height:200px;
+    text-align: center;
+    background-color: lavender;
+    color:rgb(255, 85, 176);
+}
+.navigacija{
+    background-color: lavenderblush;
+
+}
+.navigacija a:link, a:visited {
+    color: indigo;
+  }
+  
+.navigacija a:hover, a:active {
+    color: mediumpurple;
+  }
+dl, ol, ul {
+    margin:0 auto;
+}
+.navbar li{
+    margin:0 20px;
+}
+.kategorije{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kategorije section{
+    display: flex;
+    margin: 30px 0;
+    width: 70%;
+    height: 500px;
+    border-bottom: 2px solid indigo;
+    text-align:center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.clanci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+article{
+    width:23%;
+    height: 90%;
+    overflow: auto;
+    background-color: white;
+}
+article:hover{
+    box-shadow: 1px 1px 10px 5px pink;
+}
+.media_body{
+    margin: 10% 2%;
+}
+img {
+    width: 100%;
+    height:50%;
+    object-fit: cover;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+    max-width:100%;
+    height:80px;
+    text-align: end;
+    background-color: lavender;
+
+}
+
+
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+
+.slika{
+    width:700px;
+}
+
+.main{
+    background-color: mistyrose;
+    text-align: center;
+    padding: 30px 0;
+}
+.clanak{
+    display:flex;
+    justify-content: center;
+    width:70%;
+}
+
+
+.form-signin, .form-registration {
+    max-width: 330px;
+    padding: 1rem;
+}
+
+.form-signin, .form-registration .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.registration-link {
+    display: block;
+    padding-top: 1rem;
+}
+
+.form-registration .form-floating {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.vijesti{
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gumbi{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.zdravlje{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.zdravlje section{
+    display: flex;
+    margin: 30px 0;
+    width: 50%;
+    height: fit-content;
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.zdravlje article{
+    margin:50px 0;
+    width:100%;
+}
